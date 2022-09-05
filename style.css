@@ -1,0 +1,23 @@
+.game-board{
+    padding: 50px;
+    position: relative;
+}
+.game-control{
+    border-left: 10px solid darkblue;
+    border-bottom: 10px solid red;
+}
+
+#bubble {
+    width: 20px;
+    height: 20px;
+    background-color: coral;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    top: 50px;
+    left: 20px;
+}
+
+#stop-button{
+    display: none;
+}
