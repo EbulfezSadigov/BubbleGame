@@ -1,23 +1,38 @@
-.game-board{
-    padding: 50px;
-    position: relative;
+body{
+    overflow-x: hidden;
 }
-.game-control{
-    border-left: 10px solid darkblue;
-    border-bottom: 10px solid red;
+.col-8 {
+  height: 700px;
+}
+.game-board {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(15deg, #2b4399, #7ab7e9);
+  background-image: url("https://previews.123rf.com/images/mandarinka1970/mandarinka19702007/mandarinka1970200700171/151563745-underwater-cartoon-landscape-sea-bottom-with-underwater-plants-corals-and-fishs-nature-scene-backgro.jpg");
+  background-position: cover;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.game-control {
+  border-left: 10px solid black;
+  border-bottom: 10px solid black;
 }
 
 #bubble {
-    width: 20px;
-    height: 20px;
-    background-color: coral;
-    border-radius: 50%;
-    display: inline-block;
-    position: absolute;
-    top: 50px;
-    left: 20px;
+  width: 50px;
+  height: 50px;
+  box-shadow: inset 0 0 10px #fff, inset -10px -10px 15px #020131,
+    inset 5px 5px 10px #8609fc, inset -5px 5px 20px #fff,
+    inset 15px -25px 20px #527bff5d;
+  border-radius: 50%;
+  display: inline-block;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  transition: all 0.3s ease;
 }
 
-#stop-button{
-    display: none;
+#stop-button {
+  display: none;
 }
